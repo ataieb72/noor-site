@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Byrsa — Noor App</title>
+<meta name="description" content="Byrsa builds Noor, a calm daily prayer-habit app: prayer times, a one-tap checklist, a forgiving streak, Qibla, and Quran.">
+<style>
+  :root{--accent:#2E7D6B;--accent-soft:#E6F1EE;--text:#1A1C1A;--muted:#6B716C;--bg:#FFFFFF;--alt:#F6F7F5}
+  @media (prefers-color-scheme:dark){:root{--accent:#5FB3A1;--accent-soft:#1E2C29;--text:#ECEFEC;--muted:#9AA39C;--bg:#121413;--alt:#1C1F1D}}
+  *{margin:0;box-sizing:border-box}
+  body{font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--text);background:var(--bg);line-height:1.6}
+  .wrap{max-width:720px;margin:0 auto;padding:48px 24px}
+  .mark{width:84px;height:84px;border-radius:20px;background:linear-gradient(180deg,#348A77,#266456);display:flex;align-items:center;justify-content:center;margin-bottom:24px}
+  .mark svg{width:56px;height:56px}
+  h1{font-size:2rem;margin-bottom:4px}
+  .tag{color:var(--muted);margin-bottom:32px}
+  .card{background:var(--alt);border-radius:16px;padding:24px;margin:24px 0}
+  .card h2{font-size:1.2rem;margin-bottom:8px;color:var(--accent)}
+  .card p{color:var(--text)}
+  ul{margin:12px 0 0 20px;color:var(--muted)}
+  a{color:var(--accent)}
+  footer{margin-top:48px;color:var(--muted);font-size:.9rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="mark" aria-hidden="true">
+    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <path d="M62 14a38 38 0 1 0 0 72 30 30 0 0 1 0-72z" fill="#fff"/>
+      <path d="M72 22l2.9 6.2 6.8.8-5 4.6 1.3 6.7-6-3.3-6 3.3 1.3-6.7-5-4.6 6.8-.8z" fill="#fff"/>
+    </svg>
+  </div>
+  <h1>Byrsa</h1>
+  <p class="tag">Building calm, private tools for daily life.</p>
+
+  <div class="card">
+    <h2>Noor — pray five times a day, consistently</h2>
+    <p>Noor is a daily prayer-habit app for Android and iOS. It shows accurate prayer times for your city, gives you a one-tap checklist for the five daily prayers, and keeps a forgiving streak that encourages without shaming — plus a true Qibla compass, weekly insights, gentle reminders, and a clean Quran reader with recitation.</p>
+    <ul>
+      <li>No account. No ads. Your data stays on your device.</li>
+      <li>Prayer times computed on-device — works offline.</li>
+      <li>Quran content provided by the Quran.Foundation Content API.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Privacy</h2>
+    <p>Noor collects no personal data. Read the full <a href="privacy.html">privacy policy</a>.</p>
+  </div>
+
+  <div class="card">
+    <h2>Contact</h2>
+    <p><a href="mailto:ahmedtaieb72@gmail.com">ahmedtaieb72@gmail.com</a></p>
+  </div>
+
+  <footer>© 2026 Byrsa. All rights reserved.</footer>
+</div>
+</body>
+</html>
